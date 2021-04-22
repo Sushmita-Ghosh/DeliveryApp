@@ -34,10 +34,9 @@ export const AuthInput = styled(TextInput)`
   width: 300px;
 `;
 
-export const Title = styled(Text).attrs({
-  color: colors.text.primary,
-})`
+export const Title = styled(Text)`
   font-size: 40px;
+  color: #f5fcff;
 `;
 export const ErrorContainer = styled.View`
   max-width: 300px;
